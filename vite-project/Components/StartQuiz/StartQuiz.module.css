@@ -1,0 +1,365 @@
+.home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #041325;
+}
+
+.content {
+    border-radius: 1vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 80%;
+    height: 80%;
+    background: white;
+    position: absolute;
+}
+
+.contents {
+    margin-top: 2vh;
+    margin-left: 5vw;
+    margin-right: 3vw;
+    margin-bottom: 2vh;
+}
+
+.question {
+    font-size: 50px;
+    color: black;
+}
+
+.number {
+    margin-top: 2vh;
+    font-size: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 5vw;
+}
+
+.optionButton {
+    width: 32vw;
+    height: 16vh;
+    margin-bottom: 4vh;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    margin-top: -3vh;
+}
+
+.optionImage {
+    margin-top: 0vh;
+    margin-left: 2vw;
+    width: 350px;
+    height: 120px;
+    box-sizing: border-box;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.optionImage2 {
+    margin-top: 0vh;
+    margin-left: 2vw;
+    width: 350px;
+    height: 120px;
+    box-sizing: border-box;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.selectedOption {
+    border: 3px solid blue;
+    border-radius: 5px;
+}
+
+.textAndImageOption {
+    margin-top: -3vh;
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30vw;
+    height: 16vh;
+}
+
+
+.optionText {
+    margin-left: 35px;
+    word-break: break-all;
+}
+
+.textAndImageOption .optionText {
+    margin-bottom: 10px;
+}
+
+.nextButton {
+    position: fixed;
+    display: block;
+    top: 70vh;
+    margin-top: 10vh;
+    margin-left: 26vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    width: 18vw;
+    height: 6vh;
+    background-color: #60B84B;
+    color: white;
+    cursor: pointer;
+}
+
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.successmessage {
+    font-size: 40px;
+}
+
+.poll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.pollmessage1 {
+    font-size: 75px;
+    color: #474444;
+    margin-bottom: 0;
+}
+
+.pollmessage2 {
+    font-size: 75px;
+    color: #474444;
+    margin-top: 2vh;
+    margin-bottom: 0;
+}
+
+.pollmessage3 {
+    margin-top: 2vh;
+    font-size: 75px;
+    color: #474444;
+}
+
+.score {
+    font-size: 40px;
+}
+
+.win {
+    width: 35vw;
+    height: 35vh;
+}
+
+.timer {
+    font-size: 40px;
+    color: #D60000;
+    position: absolute;
+    top: -2vh;
+    right: 5vw;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .home {
+        visibility: hidden;
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .home > .content {
+        visibility: visible;
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+        background: white;
+    }
+    .contents {
+        margin: -10vh -5vw;
+    }
+
+    .question {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        margin-top: 1.8vh;
+        margin-left: -15vw;
+    }
+
+    .number {
+        margin-top: 1vh;
+        font-size: 20px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        gap: 3vw;
+    }
+
+    .optionButton {
+        width: 66%;
+        height: 15vh;
+        margin-top: 1.5vh;
+        margin-bottom: 1.2vh;
+        border-radius: 5px;
+        font-size: 18px;
+        border: none;
+        margin-left: -20vw;
+        align-self: center;
+    }
+
+    .textAndImageOption {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 12vh;
+    }
+
+    .optionImage {
+        margin-top: 0vh;
+        margin-left: 0vw;
+        margin-right: 15vw;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .optionImage2 {
+        margin-top: -1vh;
+        margin-left: 15vw;
+        margin-right: 15vw;
+        width: 100%;
+        height: 78%;
+        box-sizing: border-box;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+
+    .optionText {
+        display: inline-block;
+        margin-right: 3vw;
+        margin-left: 3vw;
+        word-break: break-all;
+        font-size: 18px;
+    }
+
+    .selectedOption {
+        border: 3px solid blue;
+        border-radius: 5px;
+    }
+
+    .success {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -15vh;
+    }
+
+    .successmessage {
+        margin-top: 20vh;
+        font-size: 25px;
+        margin-left: -25vw;
+    }
+
+    .poll {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8vh;
+        margin-left: -18vw;
+    }
+
+    .pollmessage1 {
+        font-size: 40px;
+        color: #474444;
+        margin-bottom: 0;
+        margin-top: 25vh;
+    }
+
+    .pollmessage2 {
+        font-size: 40px;
+        color: #474444;
+        margin-top: 1vh;
+        margin-bottom: 0;
+    }
+
+    .pollmessage3 {
+        margin-top: 1vh;
+        font-size: 40px;
+        color: #474444;
+    }
+
+    .score {
+        font-size: 30px;
+        margin-left: -25vw;
+    }
+
+    .win {
+        width: 50%;
+        height: auto;
+        max-height: 50vh;
+        margin-left: -20vw;
+    }
+
+    .timer {
+        margin-top: -10vh;
+        font-size: 21px;
+       left: 65vw;
+    }
+
+  
+    .nextButton {
+        position: fixed;
+        margin: 0 auto;
+        margin-top: 15vh;
+        margin-left: 15vw;
+        top: 75vh;
+        border-radius: 10px;
+        border: none;
+        font-size: 16px;
+        width: 60%;
+        height: 6vh;
+        background-color: #60B84B;
+        color: white;
+        cursor: pointer;
+    }
+
+    .selectedOption {
+        border: 0.5px solid blue;
+        border-radius: 1px;
+    }
+
+}

@@ -1,0 +1,269 @@
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-color: #FFFFFF;
+}
+
+.heading {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #474444;
+    font-weight: bolder;
+    size: 100px;
+    text-align: center;
+}
+
+.dashboard {
+    height: 4vh;
+    width: 100%;
+    border: 2px solid rgb(220, 220, 220);
+    margin-top: 15vh;
+    margin-bottom: 4vh;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.analytics {
+    height: 4vh;
+    width: 100%;
+    margin-bottom: 4vh;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.createquiz {
+    height: 4vh;
+    width: 100%;
+    border: none;
+    margin-bottom: 4vh;
+    font-size: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.separator {
+    width: 100%;
+    border: none;
+    border-top: 2px solid black;
+    margin-top: 40vh;
+
+}
+
+.logout {
+    height: 4vh;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.right {
+    border: 2px solid #EDEDED;
+    background-color: #EDEDED;
+    width: 100%;
+    padding-top: 10vh;
+    padding-left: 10vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.quizlength {
+    color: #FF5D01;
+    font-size: 60px;
+    margin-bottom: 2vh;
+}
+
+.quiz {
+    color: #FF5D01;
+    font-size: 30px;
+    padding-top: 7vh;
+    margin-left: 1vw;
+}
+
+.created1 {
+    color: #FF5D01;
+    font-size: 30px;
+    margin-top: -2vh;
+}
+
+
+.first {
+    background-color: white;
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3vh;
+}
+
+
+
+.questionlength {
+    color: #60B84B;
+    font-size: 60px;
+    margin-bottom: 2vh;
+}
+
+.quiz1 {
+    color: #60B84B;
+    font-size: 30px;
+    padding-top: 7vh;
+    margin-left: 1vw;
+}
+
+.created2 {
+    color: #60B84B;
+    font-size: 30px;
+    margin-top: -2vh;
+}
+
+.second {
+    background-color: white;
+    width: 20vw;
+    height: 20vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3vh;
+}
+
+.quizattempts {
+    color: #5076FF;
+    font-size: 60px;
+    margin-bottom: 2vh;
+}
+
+.total {
+    color: #5076FF;
+    font-size: 30px;
+    padding-top: 7vh;
+    margin-left: 1vw;
+}
+
+.created3 {
+    color: #5076FF;
+    font-size: 30px;
+    margin-top: -2vh;
+}
+
+
+.third {
+    background-color: white;
+    width: 20vw;
+    height: 20vh;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -3vh;
+}
+
+.trending {
+    font-size: 35px;
+    color: #474444;
+    margin-top: 5vh;
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+}
+
+.quizData {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3vw;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.quizItem {
+    background-color: white;
+    width: 15vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.line1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.quizname {
+    color: black;
+    font-size: 23px;
+    margin-left: 1vw;
+}
+
+.attempt {
+    margin-top: 3.5vh;
+    font-size: 15px;
+    margin-left: 11vw;
+    color: #FF5D01;
+    position: absolute;
+}
+
+.eye {
+    width: 3vw;
+    height: 3vh;
+    margin-left: 11.8vw;
+    margin-top: 3vh;
+    position: absolute;
+}
+
+.createdAt {
+    color: #60B84B;
+    margin-left: 1vw;
+    font-size: 15px;
+    margin-top: -2vh;
+}

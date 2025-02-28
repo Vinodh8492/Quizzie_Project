@@ -1,0 +1,439 @@
+.body {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    background-color: #FFFFFF;
+}
+
+.heading {
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #474444;
+    font-weight: bolder;
+    size: 100px;
+    text-align: center;
+}
+
+.dashboard {
+    height: 4vh;
+    width: 100%;
+    border: none;
+    margin-top: 15vh;
+    margin-bottom: 4vh;
+    font-size: 15px;
+    background-color: white;
+}
+
+.analytics {
+    height: 4vh;
+    width: 100%;
+    margin-bottom: 4vh;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+}
+
+.createquiz {
+    height: 4vh;
+    width: 100%;
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 10px;
+    margin-bottom: 4vh;
+    font-size: 15px;
+    background-color: white;
+    font-weight: 600;
+}
+
+.separator {
+    width: 100%;
+    border: none;
+    border-top: 2px solid black;
+    margin-top: 40vh;
+}
+
+.logout {
+    height: 4vh;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    background-color: white;
+    text-transform: uppercase;
+}
+
+.right {
+    border: 2px solid #EDEDED;
+    background-color: #EDEDED;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.head {
+    text-align: center;
+}
+
+.input {
+    width: 30vw;
+    height: 5vh;
+    margin-left: 2.5vw;
+    border: 0.2vw solid rgb(232, 232, 232);
+    border-radius: 5px;
+    padding-left: 1vw;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3vw;
+    gap: 5vw;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+}
+
+.question {
+    width: 8vw;
+    height: 3.5vh;
+    border: 0vw solid rgb(232, 232, 232);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.poll {
+    width: 8vw;
+    height: 3.5vh;
+    border: 0vw solid rgb(232, 232, 232);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.overlayContent {
+    width: 35vw;
+    height: 35vh;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.last {
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+    margin-left: 3vw;
+}
+
+.cancel {
+    margin-top: 20px;
+    width: 12.5vw;
+    height: 4vh;
+    border: 0vw solid rgb(232, 232, 232);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue {
+    margin-top: 20px;
+    background-color: #60B84B;
+    width: 12.5vw;
+    height: 4vh;
+    border: 0vw solid rgb(232, 232, 232);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.question.selected {
+    background-color: #60B84B;
+}
+
+.poll.selected {
+    background-color: #60B84B;
+}
+
+.overlay1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.overlayContent1 {
+    width: 60vw;
+    height: 70vh;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.add {
+    width: 5vw;
+    height: 3.5vh;
+    margin-top: 1.5vh;
+    margin-left: 2vw;
+}
+
+.questionContainer {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cancelledIcon {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    cursor: pointer;
+    width: 1vw;
+    height: 1vh;
+}
+
+
+.para {
+    margin-left: 5vw;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(192, 187, 187);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 3vh;
+}
+
+.input02 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 50vw;
+    height: 7vh;
+    border: 0.2vw solid rgb(232, 232, 232);
+    border-radius: 5px;
+    padding-left: 1vw;
+    color: #9F9F9F;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    gap: 5vw;
+}
+
+.last1 {
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    margin-left: 5vw;
+    margin-top: 63vh;
+    position: fixed;
+}
+
+
+.cancel1 {
+    margin-top: 20px;
+    width: 20vw;
+    height: 5vh;
+    border: 0vw solid rgb(232, 232, 232);
+    border-radius: 5px;
+}
+
+.created {
+    margin-top: 20px;
+    width: 20vw;
+    height: 5vh;
+    border: 0vw solid rgb(232, 232, 232);
+    border-radius: 5px;
+    background-color: #60B84B;
+    color: white;
+}
+
+.text {
+    padding-left: 0.5vw;
+    font-size: x-large;
+    color: #9F9F9F;
+}
+
+.type {
+    font-size: x-large;
+    color: #9F9F9F;
+    padding-left: 0.5vw;
+}
+
+.optioninput {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.horizontalInputs {
+    display: flex;
+}
+
+.radio {
+    margin-left: 2vw;
+}
+
+.mid {
+    margin-top: 5vh;
+}
+
+.middlepart {
+    display: flex;
+    flex-direction: row;
+}
+
+.timer {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    position: fixed;
+    margin-top: 5vh;
+    margin-left: 48vw;
+}
+
+.time {
+    font-size: x-large;
+    color: #9F9F9F;
+    margin-bottom: 2vh;
+    margin-left: 1vw;
+}
+
+.timebuttons {
+    width: 6vw;
+    height: 4.5vh;
+    color: #9F9F9F;
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 8px;
+}
+
+.deleteIcon {
+    margin-left: 10px;
+}
+
+.input2 {
+    width: 10vw;
+    height: 5vh;
+    margin-left: 2vw;
+    border: 0.2vw solid rgb(232, 232, 232);
+    border-radius: 5px;
+    padding-left: 1vw;
+    color: #9F9F9F;
+}
+
+.addoption {
+    width: 11.5vw;
+    height: 5vh;
+    margin-left: 5vw;
+    text-align: center;
+    border: 0.2vw solid rgb(232, 232, 232);
+    border-radius: 5px;
+    padding-left: 1vw;
+    color: #9F9F9F;
+}
+
+.greenInput {
+    background-color: #60B84B;
+    color: white;
+}
+
+.selectedTimer {
+    background-color: red;
+    color: white;
+}
+
+.overtext1 {
+    font-size: xx-large;
+    margin-bottom: 1vh;
+    color: #474444;
+    text-align: center;
+}
+
+.overtext2 {
+    font-size: xx-large;
+    margin-top: 0;
+    color: #474444;
+    text-align: center;
+}
+
+.success {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.successtext {
+    width: 25vw;
+    height: 5vh;
+    background-color: #EDEDED;
+    color: black;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 3vh;
+}
+
+
+.successshare {
+    margin-left: 12vw;
+    width: 12vw;
+    height: 4vh;
+    background-color: #60B84B;
+    color: white;
+    border: 0.2vw solid #474444;
+    border-radius: 5px;
+    border: none;
+}
+
+.successcancel {
+    margin-left: 33vw;
+    margin-top: -3vh;
+    width: 4vw;
+    height: 2vh;
+
+}
+
+.linkcopied {
+    position: fixed;
+    margin-left: 21vw;
+    margin-top: -8vh;
+    width: 15vw;
+    height: 14vh;
+    z-index: 1000;
+}
+
+.quizLink {
+    margin-left: 4vw;
+    margin-bottom: 5vh;
+}
